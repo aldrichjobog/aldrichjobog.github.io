@@ -53,6 +53,20 @@
       color: #212529;
     }
 
+    .hero-img {
+      width: 150px; /* default size for desktop */
+      height: 150px;
+      object-fit: cover;
+    }
+
+    @media (max-width: 576px) { /* small devices */
+      .hero-img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+
+
     /* Buttons */
     .btn-primary {
       background-color: #0D6EFD;
